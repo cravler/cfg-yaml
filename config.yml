@@ -1,0 +1,3 @@
+hello:
+    cfg:
+        yaml: 'hello cfg-yaml'

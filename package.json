@@ -1,0 +1,36 @@
+{
+  "name": "cfg-yaml",
+  "description": "YAML configuration for NodeJS",
+  "author": {
+    "name": "Sergei Vizel",
+    "email": "sergei.vizel@gmail.com",
+    "url": "https://github.com/cravler"
+  },
+  "homepage": "https://github.com/cravler/cfg-yaml",
+  "keywords": [
+    "config",
+    "configuration",
+    "yaml"
+  ],
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "index.js",
+  "dependencies": {
+    "cfg-js": "^0.1.0",
+    "js-yaml": "^3.8.4"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cravler/cfg-yaml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cravler/cfg-yaml/issues"
+  },
+  "scripts": {
+    "test": "mocha './{,!(node_modules)/**/}*.spec.js'"
+  }
+}
