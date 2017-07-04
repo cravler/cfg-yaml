@@ -13,10 +13,10 @@
     "yaml"
   ],
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "dependencies": {
-    "cfg-js": "^0.1.0",
+    "cfg-js": "^0.1.1",
     "js-yaml": "^3.8.4"
   },
   "devDependencies": {

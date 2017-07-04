@@ -28,3 +28,5 @@ function loadConfig (filePath, callback) {
         callback(null, cfg);
     });
 }
+
+loadConfig.Config = Config;
